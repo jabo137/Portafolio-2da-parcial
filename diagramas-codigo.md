@@ -1158,7 +1158,7 @@ print("Promedio de aprobados:", promedioAprobados)
 
 ### Ejercicio 10. Un dfd que capture 10 números enteros positivos y los almacene en un array. *Sacar el número mayor y el menor.
 #### 1.1 Analisis. 
-
+Almanacenar en un vector 10 numeros enteros positivos ingresados por el usuario e indicar el mayor y el menor de los ingresados.
 #### 1.2 DFD.
 ![11](https://user-images.githubusercontent.com/113395327/197684226-87886cc7-470a-4c5f-8a3a-9fa33659f4f4.png)
 #### 1.3 Prueba de escritorio 
@@ -1180,7 +1180,7 @@ print("Numero menor es ",min(lista))
 
 ### Ejercicio 11. Obtenga la distancia mayor entre 2 números consecutivos en una lista de 10 números.
 #### 1.1 Analisis. 
-
+calcular la distancia que existe en una lista de numeros almacenados en el vectorde fomarma consecutiva ingresados por el usuario.
 #### 1.2 DFD
 ![12](https://user-images.githubusercontent.com/113395327/197684202-afbcfb05-e77c-4657-97aa-c9c7c5377989.png)
 #### 1.3 Prueba de escritorio 
