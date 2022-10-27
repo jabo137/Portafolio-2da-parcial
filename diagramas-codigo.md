@@ -2,9 +2,9 @@
 ## Problemas resueltos en clase con DFD
 ### Ejercicio 1. Contar del 1 hasta el 10 y sumar los valores. (FOR)
 #### 1.1 Analisis. 
-Sumar los valores del 1 al 10.
+Contar del 1 al 10 dentro de una condicional, posteriormente sumar los valores en un proceso.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197370994-6bed5c67-531c-4b90-b360-dcf3b6189313.png)
+![1 (for)](https://user-images.githubusercontent.com/113395327/197660653-0f384b1e-6c99-4a26-8613-03f91649be32.png)
 #### 1.3 Prueba de escritorio
 |s|i|i<=10|s=s+i|i++|Salida|
 |-|-|-|-|-|-|
@@ -21,7 +21,7 @@ Sumar los valores del 1 al 10.
 #### 1.4 Entradas.
 No tiene ninguna entrada.
 #### 1.5 Salidas.
-55.
+S.
 #### 1.6 Codigo.
 ```dart
 void main(List<String> args) {
@@ -32,11 +32,11 @@ void main(List<String> args) {
   print("La suma de los valores es: $s");
 }
 ```
-### Ejercicio 2. Contar del 1 hasta el 10 y sumar los valores. (WHILE)
+### Ejercicio 1. Contar del 1 hasta el 10 y sumar los valores. (WHILE)
 #### 1.1 Analisis. 
-Sumar los valores del 1 al 10.
+Utilizar un proceso para las variables de suma y contador, despues con una condicion validar la suma de los valores del 1 al 10.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197401601-6bc0d83e-df63-4273-ad29-1fccf8e1cf54.png)
+![1 (While)](https://user-images.githubusercontent.com/113395327/197660681-49bfc8f7-5ed8-49f0-988d-490046d78f77.png)
 #### 1.3 Prueba de escritorio 
 |s|c|c<=10|s=s+c|c=c++|Salida|
 |-|-|-|-|-|-|
@@ -53,7 +53,7 @@ Sumar los valores del 1 al 10.
 #### 1.4 Entradas.
 No tiene ninguna entrada.
 #### 1.5 Salidas.
-55.
+S.
 #### 1.6 Codigo.
 ```dart
 void main(List<String> args) {
@@ -66,11 +66,11 @@ void main(List<String> args) {
   print("El resultado de la suma de los valores es:$s");
 }
 ```
-### Ejercicio 3. Contar del 1 hasta el 10 y sumar los valores. (DO-WHILE)
+### Ejercicio 1. Contar del 1 hasta el 10 y sumar los valores. (DO-WHILE)
 #### 1.1 Analisis. 
-Sumar los valores del 1 al 10.
+Utilizar un proceso para las varibles de contador y suma, despues con otro proceso hacer la suma, y luego el contador para validar las veces.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197401840-390bcb1a-f2cb-4799-8c83-3978dd0ee754.png)
+![1 (Do-While)](https://user-images.githubusercontent.com/113395327/197660698-c39d7d57-68ec-4d22-b9dc-0f7546518bfd.png)
 #### 1.3 Prueba de escritorio 
 |s|c|s=s+c|c=c++|c<=10|Salida|
 |-|-|-|-|-|-|
@@ -87,7 +87,7 @@ Sumar los valores del 1 al 10.
 #### 1.4 Entradas.
 No tiene ninguna entrada.
 #### 1.5 Salidas.
-55.
+S.
 #### 1.6 Codigo.
 ```dart
 void main(List<String> args) {
@@ -100,11 +100,11 @@ void main(List<String> args) {
   print("El resultado de la suma de los valores es:$s");
 }
 ```
-### Ejercicio 4. Obtenga la suma de los primeros 5 numeros pares. (FOR)
+### Ejercicio 2. Obtenga la suma de los primeros 5 numeros pares. (FOR)
 #### 1.1 Analisis. 
-Obtener los primeros 5 numeros pares y sumarlos entre si.
+Sumar los numeros pares del 1 al 10.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197371049-0a3fe20e-11ef-4136-94b4-0d2ad7275bc2.png)
+![2 (for)](https://user-images.githubusercontent.com/113395327/197660736-9a97e4f3-b28f-404a-9f6d-fd035279e3b0.png)
 #### 1.3 Prueba de escritorio 
 |s|i|i<=5|s=s+ i * 2|i++|salida|
 |-|-|-|-|-|-|
@@ -116,7 +116,7 @@ Obtener los primeros 5 numeros pares y sumarlos entre si.
 #### 1.4 Entradas.
 No tiene ninguna entrada.
 #### 1.5 Salidas.
-30.
+S.
 #### 1.6 Codigo.
 ```dart
 void main(List<String> args) {
@@ -127,11 +127,11 @@ void main(List<String> args) {
   print("resultado de la suma de numeros pares es:$s");
 }
 ```
-### Ejercicio 5. Obtenga la suma de los primeros 5 numeros pares. (WHILE)
+### Ejercicio 2. Obtenga la suma de los primeros 5 numeros pares. (WHILE)
 #### 1.1 Analisis.
-Obtener los primeros 5 numeros pares y sumarlos entre si.
+Sumar los numeros pares del 1 al 10.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197402064-570cad02-fbe8-4d55-bdfc-3c025b1e2286.png)
+![2 (While)](https://user-images.githubusercontent.com/113395327/197660764-11511194-e0b1-4a00-aae3-68b54143865d.png)
 #### 1.3 Prueba de escritorio 
 |s|c|c<=5|s=s+ i * 2|c++|salida|
 |-|-|-|-|-|-|
@@ -143,7 +143,7 @@ Obtener los primeros 5 numeros pares y sumarlos entre si.
 #### 1.4 Entradas.
 No tiene ninguna entrada.
 #### 1.5 Salidas.
-30.
+S.
 #### 1.6 Codigo.
 ```dart
 void main(List<String> args) {
@@ -155,11 +155,11 @@ void main(List<String> args) {
   print("resultado de la suma de numeros pares:$s");
 }
 ```
-### Ejercicio 6. Obtenga la suma de los primeros 5 numeros pares. (DO-WHILE)
+### Ejercicio 2. Obtenga la suma de los primeros 5 numeros pares. (DO-WHILE)
 #### 1.1 Analisis.
-Obtener los primeros 5 numeros pares y sumarlos entre si.
+Sumar los numeros pares del 1 al 10.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197402096-75bf182b-69be-40bc-b2b7-95e5d353861c.png)
+![2 (Do-While)](https://user-images.githubusercontent.com/113395327/197660837-9c64bda6-9519-44c1-b2ae-735a8ee688c1.png)
 #### 1.3 Prueba de escritorio 
 |s|c|s=s+ i * 2|c++|c<=5|salida|
 |-|-|-|-|-|-|
@@ -171,7 +171,7 @@ Obtener los primeros 5 numeros pares y sumarlos entre si.
 #### 1.4 Entradas.
 No tiene ninguna entrada.
 #### 1.5 Salidas.
-30.
+S.
 #### 1.6 Codigo.
 ```dart
 void main(List<String> args) {
@@ -184,24 +184,24 @@ void main(List<String> args) {
   print("la suma de numeros pares es:$s");
 }
 ```
-### Ejercicio 7. Almacene en un array el numero n leido del teclado, el tamaño del array es de 10. (FOR)
+### Ejercicio 3. Almacene en un array el numero n leido del teclado, el tamaño del array es de 10. (FOR)
 #### 1.1 Analisis. 
 Debemos almacenar en 10 espacios el numero n.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197402229-8076c2bc-525f-445e-8f57-468b827f1eeb.png)
+![3 (for)](https://user-images.githubusercontent.com/113395327/197660869-62d12335-0cbe-471c-87e0-1b17ae9c1cf6.png)
 #### 1.3 Prueba de escritorio 
 |n|i|i<=9|A[i]=n|i++|
 |-|-|-|-|-|
-|4|0|0<=9|A[0]=4|0+1|
-|4|1|1<=9|A[1]=4|1+1|
-|4|2|2<=9|A[2]=4|2+1|
-|4|3|3<=9|A[3]=4|3+1|
-|4|4|4<=9|A[4]=4|4+1|
-|4|5|5<=9|A[5]=4|5+1|
-|4|6|6<=9|A[6]=4|6+1|
-|4|7|7<=9|A[7]=4|7+1|
-|4|8|8<=9|A[8]=4|8+1|
-|4|9|9<=9|A[9]=4|9+1|
+|6|0|0<=9|A[0]=6|0+1|
+|6|1|1<=9|A[1]=6|1+1|
+|6|2|2<=9|A[2]=6|2+1|
+|6|3|3<=9|A[3]=6|3+1|
+|6|4|4<=9|A[4]=6|4+1|
+|6|5|5<=9|A[5]=6|5+1|
+|6|6|6<=9|A[6]=6|6+1|
+|6|7|7<=9|A[7]=6|7+1|
+|6|8|8<=9|A[8]=6|8+1|
+|6|9|9<=9|A[9]=6|9+1|
 #### 1.4 Entradas.
 n.
 #### 1.5 Salidas.
@@ -226,20 +226,20 @@ void main() {
 #### 1.1 Analisis. 
 Debemos almacenar en 10 espacios el numero n.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197402293-bd4cc849-581f-4e8c-8638-5a9776826320.png)
+![3 (While)](https://user-images.githubusercontent.com/113395327/197660901-d4ae6f43-b708-4ab3-9157-f1160f8b80af.png)
 #### 1.3 Prueba de escritorio 
 |n|c|c<=9|A[c]=n|c++|
 |-|-|-|-|-|
-|7|0|0<=9|A[0]=7|0+1|
-|7|1|1<=9|A[1]=7|1+1|
-|7|2|2<=9|A[2]=7|2+1|
-|7|3|3<=9|A[3]=7|3+1|
-|7|4|4<=9|A[4]=7|4+1|
-|7|5|5<=9|A[5]=7|5+1|
-|7|6|6<=9|A[6]=7|6+1|
-|7|7|7<=9|A[7]=7|7+1|
-|7|8|8<=9|A[8]=7|8+1|
-|7|9|9<=9|A[9]=7|9+1|
+|9|0|0<=9|A[0]=9|0+1|
+|9|1|1<=9|A[1]=9|1+1|
+|9|2|2<=9|A[2]=9|2+1|
+|9|3|3<=9|A[3]=9|3+1|
+|9|4|4<=9|A[4]=9|4+1|
+|9|5|5<=9|A[5]=9|5+1|
+|9|6|6<=9|A[6]=9|6+1|
+|9|7|7<=9|A[7]=9|7+1|
+|9|8|8<=9|A[8]=9|8+1|
+|9|9|9<=9|A[9]=9|9+1|
 #### 1.4 Entradas.
 n.
 #### 1.5 Salidas.
@@ -262,24 +262,24 @@ void main() {
   stdout.write("Tu lista es, $arra ");
 }
 ```
-### Ejercicio 9. Almacene en un array el numero n leido del teclado, el tamaño del array es de 10. (DO-WHILE)
+### Ejercicio 3. Almacene en un array el numero n leido del teclado, el tamaño del array es de 10. (DO-WHILE)
 #### 1.1 Analisis. 
 Debemos almacenar en 10 espacios el numero n.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197402325-1e3f53a4-fba0-4296-9012-44f6f9550e39.png)
+![3 (Do-While)](https://user-images.githubusercontent.com/113395327/197660916-b013d497-3144-4e52-a095-cefebc079a15.png)
 #### 1.3 Prueba de escritorio 
 |n|c|A[c]=n|c++|c<=9|
 |-|-|-|-|-|
-|5|0|0<=9|0+1|A[0]=5|
-|5|1|1<=9|1+1|A[1]=5|
-|5|2|2<=9|2+1|A[2]=5|
-|5|3|3<=9|3+1|A[3]=5|
-|5|4|4<=9|4+1|A[4]=5|
-|5|5|5<=9|5+1|A[5]=5|
-|5|6|6<=9|6+1|A[6]=5|
-|5|7|7<=9|7+1|A[7]=5|
-|5|8|8<=9|8+1|A[8]=5|
-|5|9|9<=9|9+1|A[9]=5|
+|2|0|0<=9|0+1|A[0]=2|
+|2|1|1<=9|1+1|A[1]=2|
+|2|2|2<=9|2+1|A[2]=2|
+|2|3|3<=9|3+1|A[3]=2|
+|2|4|4<=9|4+1|A[4]=2|
+|2|5|5<=9|5+1|A[5]=2|
+|2|6|6<=9|6+1|A[6]=2|
+|2|7|7<=9|7+1|A[7]=2|
+|2|8|8<=9|8+1|A[8]=2|
+|2|9|9<=9|9+1|A[9]=2|
 #### 1.4 Entradas.
 n.
 #### 1.5 Salidas.
@@ -302,24 +302,24 @@ void main() {
   stdout.write("Tu lista es $arra ");
 }
 ```
-### Ejercicio 10. Almacene los n numeros leidos del teclado en un vector de 10 elementos. (FOR)
+### Ejercicio 4. Almacene los n numeros leidos del teclado en un vector de 10 elementos. (FOR)
 #### 1.1 Analisis. 
-Almacenar en un vector el coteo negativo del 10 a 0 en orden.
+Almacenar en 10 espacios diferentes numeros leidos del teclado.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197371156-4295ab1d-e995-4f38-8338-0bdcdac36c00.png)
+![4 (for)](https://user-images.githubusercontent.com/113395327/197660974-b31154a6-6d29-4622-815a-8f9d47ea0af1.png)
 #### 1.3 Prueba de escritorio 
 |i|i<=9|n|A[i]=n|i+1|
 |-|-|-|-|-|
-|0|0<=9|6|A[0]=6|0+1|
-|1|1<=9|4|A[1]=4|1+1|
-|2|2<=9|8|A[2]=8|2+1|
-|3|3<=9|1|A[3]=1|3+1|
-|4|4<=9|4|A[4]=4|4+1|
+|0|0<=9|9|A[0]=9|0+1|
+|1|1<=9|9|A[1]=9|1+1|
+|2|2<=9|9|A[2]=9|2+1|
+|3|3<=9|9|A[3]=9|3+1|
+|4|4<=9|9|A[4]=9|4+1|
 |5|5<=9|9|A[5]=9|5+1|
-|6|6<=9|2|A[6]=2|6+1|
-|7|7<=9|4|A[7]=4|7+1|
-|8|8<=9|3|A[8]=3|8+1|
-|9|9<=9|5|A[9]=5|9+1|
+|6|6<=9|9|A[6]=9|6+1|
+|7|7<=9|9|A[7]=9|7+1|
+|8|8<=9|9|A[8]=9|8+1|
+|9|9<=9|9|A[9]=9|9+1|
 #### 1.4 Entradas.
 n.
 #### 1.5 Salidas.
@@ -340,11 +340,11 @@ void main() {
   stdout.write("aqui esta la lista, $arra");
 }
 ```
-### Ejercicio 11. Almacene los n numeros leidos del teclado en un vector de 10 elementos. (WHILE)
+### Ejercicio 4. Almacene los n numeros leidos del teclado en un vector de 10 elementos. (WHILE)
 #### 1.1 Analisis. 
-Almacenar en 10 espacios diferentes los numeros ingresados por el usario.
+Almacenar en 10 espacios diferentes numeros leidos del teclado.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197402477-524b88d2-dcec-414e-8015-489a0de963db.png)
+![4 (While)](https://user-images.githubusercontent.com/113395327/197661015-dfd2ed45-979d-4fe4-a6bb-a96e2114497e.png) 
 #### 1.3 Prueba de escritorio 
 |c|c<=9|n|A[c]=n|c+1|
 |-|-|-|-|-|
@@ -380,11 +380,11 @@ void main() {
   stdout.write("Tu lista es, $arra ");
 }
 ```
-### Ejercicio 12. Almacene los n numeros leidos del teclado en un vector de 10 elementos. (DO-WHILE)
+### Ejercicio 4. Almacene los n numeros leidos del teclado en un vector de 10 elementos. (DO-WHILE)
 #### 1.1 Analisis. 
-Almacenar en 10 espacios diferentes los numeros ingresados por el usario.
+Almacenar en 10 espacios diferentes numeros leidos del teclado.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197405036-fac206f1-3619-44c2-8c64-3fc58a899b1a.png)
+![4 (Do-While)](https://user-images.githubusercontent.com/113395327/197661041-c8b0f699-fc49-4158-aa3a-0135523b7921.png)
 #### 1.3 Prueba de escritorio 
 |c|n|A[c]=n|c+1|c<=9|
 |-|-|-|-|-|
@@ -399,7 +399,9 @@ Almacenar en 10 espacios diferentes los numeros ingresados por el usario.
 |8|7|A[8]=7|8+1|8<=9|
 |9|9|A[9]=9|9+1||
 #### 1.4 Entradas.
+n.
 #### 1.5 Salidas.
+A
 #### 1.6 Codigo.
 ```dart
 void main() {
@@ -418,11 +420,11 @@ void main() {
   stdout.write("Tu lista es $arra ");
 }
 ```
-### Ejercicio 13. Almacene un contador negativo en un vector, el conteo es de 10 a 0. (FOR)
+### Ejercicio 5. Almacene un contador negativo en un vector, el conteo es de 10 a 0. (FOR)
 #### 1.1 Analisis. 
 Almacenar en 10 espacios un conteo regresivo del 10 al 0.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197371211-333c3251-eb1f-40f0-b149-1e12870d3be7.png)
+![5 (for)](https://user-images.githubusercontent.com/113395327/197661066-18a0fe4e-25fa-49df-bd17-369867a17e66.png)
 #### 1.3 Prueba de escritorio 
 |i|i>=0|A[10-i]=i|i--|
 |-|-|-|-|
@@ -451,11 +453,11 @@ void main() {
   print(arr);
 }
 ```
-### Ejercicio 14. Almacene un contador negativo en un vector, el conteo es de 10 a 0. (WHILE)
+### Ejercicio 5. Almacene un contador negativo en un vector, el conteo es de 10 a 0. (WHILE)
 #### 1.1 Analisis. 
 Almacenar en 10 espacios un conteo regresivo del 10 al 0.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197405073-a7e022a3-c0ef-46ed-b68a-4554b0d4759e.png)
+![5 (While)](https://user-images.githubusercontent.com/113395327/197661093-1e30accc-8788-4e69-99fa-6ae602d16809.png)
 #### 1.3 Prueba de escritorio 
 |c|c>=0|A[10-c]=c|c--|
 |-|-|-|-|
@@ -486,10 +488,10 @@ void main() {
   print(arr);
 }
 ```
-### Ejercicio 15. Almacene un contador negativo en un vector, el conteo es de 10 a 0. (DO-WHILE)
+### Ejercicio 5. Almacene un contador negativo en un vector, el conteo es de 10 a 0. (DO-WHILE)
 #### 1.1 Analisis. Almacenar en 10 espacios un conteo regresivo del 10 al 0.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197405102-c906b7b0-0bff-4638-8fce-a677a3c4b865.png)
+![5 (Do-While)](https://user-images.githubusercontent.com/113395327/197661111-4c8e2d90-88c6-4952-a8f8-ebe2f856e4ad.png)
 #### 1.3 Prueba de escritorio 
 |c|A[10-c]=c|c--|c>=0|
 |-|-|-|-|
@@ -520,7 +522,7 @@ void main() {
   print(arr);
 }
 ```
-### Ejercicio 16. Almacene en un vector de tamaño 10, todos los numeros pares capturados hasta completar todos. (FOR)
+### Ejercicio 6. Almacene en un vector de tamaño 10, todos los numeros pares capturados hasta completar todos. (FOR)
 #### 1.1 Analisis. 
 Tenemos que insertar numero pares y almacenarlos en 10 espacios.
 #### 1.2 DFD
@@ -529,10 +531,10 @@ Tenemos que insertar numero pares y almacenarlos en 10 espacios.
 |i|i<=9|n|n%2==0|A[i]=n|i+1|
 |-|-|-|-|-|-|
 |0|0<=9|8|8%2==0|A[0]=8|0+1|
-|1|1<=9|4|4%2==0|A[1]=4|1+1|
-|2|2<=9|2|2%2==0|A[2]=2|2+1|
+|1|1<=9|8|4%2==0|A[1]=8|1+1|
+|2|2<=9|6|2%2==0|A[2]=6|2+1|
 |3|3<=9|8|8%2==0|A[3]=8|3+1|
-|4|4<=9|2|4%2==0|A[4]=2|4+1|
+|4|4<=9|4|4%2==0|A[4]=4|4+1|
 |5|5<=9|6|6%2==0|A[5]=6|5+1|
 |6|6<=9|6|6%2==0|A[6]=6|6+1|
 |7|7<=9|2|2%2==0|A[7]=2|7+1|
@@ -562,7 +564,7 @@ resultado = extraer_pares(numeros)
 print("Contenido de la variable`resultado`:", resultado)
 print("Cantidad de elementos en la lista `resultado`:", len(resultado))
 ```
-### Ejercicio 17. Almacene en un vector de tamaño 10, todos los numeros pares capturados hasta completar todos. (WHILE)
+### Ejercicio 6. Almacene en un vector de tamaño 10, todos los numeros pares capturados hasta completar todos. (WHILE)
 #### 1.1 Analisis. 
 Tenemos que insertar numero pares y almacenarlos en 10 espacios.
 #### 1.2 DFD
@@ -579,7 +581,7 @@ Tenemos que insertar numero pares y almacenarlos en 10 espacios.
 |6|6<=9|6|6%2==0|A[6]=6|6+1|
 |7|7<=9|8|2%2==0|A[7]=8|7+1|
 |8|8<=9|2|4%2==0|A[8]=2|8+1|
-|9|9<=9|4|4%2==0|A[9]=4|9+1|
+|9|9<=9|8|4%2==0|A[9]=8|9+1|
 #### 1.4 Entradas.
 n.
 #### 1.5 Salidas.
@@ -603,7 +605,7 @@ resultado = extraer_pares(numeros)
 print("Contenido de la variable`resultado`:", resultado)
 print("Cantidad de elementos en la lista `resultado`:", len(resultado))
 ```
-### Ejercicio 18. Almacene en un vector de tamaño 10, todos los numeros pares capturados hasta completar todos. (DO-WHILE)
+### Ejercicio 6. Almacene en un vector de tamaño 10, todos los numeros pares capturados hasta completar todos. (DO-WHILE)
 #### 1.1 Analisis. 
 Tenemos que insertar numero pares y almacenarlos en 10 espacios.
 #### 1.2 DFD
@@ -644,11 +646,11 @@ void main() {
   print(array);
 }
 ```
-### Ejercicio 19. Obtener el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificación entre 0 y 10 y el maximo de alumnos es de 15. (FOR)
+### Ejercicio 7. Obtener el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificación entre 0 y 10 y el maximo de alumnos es de 15. (FOR)
 #### 1.1 Analisis.
 Sumar las calificaiones de los alumnos aprobados y sacarles el promedio, despues contar la cantidad de reprobados mayores a 5.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197411505-2a259b71-368e-4ae0-8399-d6c445b9b111.png)
+![7 (for)](https://user-images.githubusercontent.com/113395327/197688395-c0923fad-0ca5-4de4-82d6-1bab7203d080.png)
 #### 1.3 Prueba de escritorio 
 |i|i<=14|Cal|Cal>=LI|Cal<=LS|A[i]=Cal|i+1|Cal<5|S_A=S_A+Cal|C_A=C_A+1|C_R++|P_A=S_A/C_A|P_A|C_R|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -697,10 +699,11 @@ print("El promedio de calificación de los aprobados es de >>",round(p_aprobados
 print("El total de aprobados fueron >> ",j)
 print("El total de reprobados fueron >> ",(len(alumnos)-j))
 ```
-### Ejercicio 20. Obtener el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificación entre 0 y 10 y el maximo de alumnos es de 15. (WHILE)
+### Ejercicio 7. Obtener el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificación entre 0 y 10 y el maximo de alumnos es de 15. (WHILE)
 #### 1.1 Analisis. 
+Sumar las calificaiones de los alumnos aprobados y sacarles el promedio, despues contar la cantidad de reprobados mayores a 5.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197417109-b6f776ed-9408-4a55-ab89-fb0fe7bf07c2.png)
+![7 (While)](https://user-images.githubusercontent.com/113395327/197688455-e00cb974-0a95-45e3-9181-aef805bd31be.png)
 #### 1.3 Prueba de escritorio 
 |C_Almn|C_Almn<=14|Cal|Cal>=LI|Cal<=LS|A[i]=Cal|i+1|Cal<5|S_A=S_A+Cal|C_A=C_A+1|C_R++|P_A=S_A/C_A|P_A|C_R|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -749,10 +752,11 @@ print("El promedio de calificación de los aprobados es de >>",round(p_aprobados
 print("El total de aprobados fueron >> ",j)
 print("El total de reprobados fueron >> ",(len(alumnos)-j))
 ```
-### Ejercicio 21. Obtener el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificación entre 0 y 10 y el maximo de alumnos es de 15. (DO-WHILE)
+### Ejercicio 7. Obtener el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificación entre 0 y 10 y el maximo de alumnos es de 15. (DO-WHILE)
 #### 1.1 Analisis. 
+Sumar las calificaiones de los alumnos aprobados y sacarles el promedio, despues contar la cantidad de reprobados mayores a 5.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197417134-8b3fa286-832c-4ac4-a678-80d6132d225d.png)
+![7 (Do-While)](https://user-images.githubusercontent.com/113395327/197688485-7cbe452b-ac52-43d2-9b69-d36af9fc360f.png)
 #### 1.3 Prueba de escritorio 
 |C_Almn|Cal|Cal>=LI|Cal<=LS|A[i]=Cal|i++|Cal<5|S_A=S_A+Cal|C_A=C_A+1|C_R++|C_Almn<=14|P_A=S_A/C_A|P_A|C_R|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -819,11 +823,21 @@ void main() {
   print('La cantidad de reprobados son $contr');
 }
 ```
-### Ejercicio 22. 
+### Ejercicio 8. Capturar n números en el rango [Li,LS] donde: Li=límite inferior y LS= límite superior, para Li<Ls y Li<LS y Li>0, obtenga: -la cantidad de numeros pares y su promedio. -La cantidad de números impares y su promedio. ¿Cuál promedio es mayor? (FOR)
 #### 1.1 Analisis. 
+  
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197482355-9109f57f-e07a-47fa-9097-ef04e9e0a386.png)
+![8 (For)](https://user-images.githubusercontent.com/113395327/197688541-2d6416ea-fe06-41cf-b2b4-55418564b7e8.png)
 #### 1.3 Prueba de escritorio 
+|LI|LI=>0|LS|LS>LI|N|N>0|i|i<N|Num|Num>0|Num>LI|Num<=LS1|Num%2==0|S_P= S_P+Num|C_P=C_P+1|S_I=S_I+Num|C_I=C_I+1|i+1|P_P=S_P/C_P|P_I=S_I/C_I|P_P>P_I|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|2|2>0|10|10>2|6|6>0|0|0<6|8|8>0|8>2|8<=10|8%2==0|0+8|0+1|||0+1||||
+|||||||1|1<6|7|7>0|7>1|7<=8||||7+0|0+1|1+1||||
+|||||||2|2<6|2|2>0|2>1|2<=8|2%2==0|4+2|1+1|||2+1||||
+|||||||4|4<6|6|6>0|6>1|6<=8|6%2==0|6+6|2+1|||4+1||||
+|||||||3|3<6|5|5>0|5>1|5<=8||||7+5|1+1|3+1||||
+|||||||5|5<6|3|3>0|3>1|3<=8||||12+3|2+1|5+1||||
+|||||||6||||||||||||P_P=12/3|P_I=15/3|4>5|
 #### 1.4 Entradas.
 #### 1.5 Salidas.
 #### 1.6 Codigo.
@@ -888,10 +902,11 @@ if(pp>pi):
 else:
     print("El PI es mayor que el PP")
 ```
-### Ejercicio 23. 
-#### 1.1 Analisis. 
+### Ejercicio 8. Capturar n números en el rango [Li,LS] donde: Li=límite inferior y LS= límite superior, para Li<Ls y Li<LS y Li>0, obtenga: -la cantidad de numeros pares y su promedio. -La cantidad de números impares y su promedio. ¿Cuál promedio es mayor?
+#### 1.1 Analisis.
+
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197482559-3f9d511c-a368-4b92-8f2b-b4ff3bd22178.png)
+![8 (While)](https://user-images.githubusercontent.com/113395327/197688584-5ca91bc8-9620-431c-a661-81d7ff09acbb.png)
 #### 1.3 Prueba de escritorio 
 #### 1.4 Entradas.
 #### 1.5 Salidas.
@@ -939,10 +954,10 @@ if prom_pares > prom_impares:
 else:
     print("El promedio de los números impares es mayor que el promedio de los pares.")
 ```
-### Ejercicio 24. 
+### Ejercicio 8. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197482488-8151b935-fc88-4412-bd5f-091a6f20aa66.png)
+![8 (Do-While)](https://user-images.githubusercontent.com/113395327/197688603-78d031c0-5bca-476a-830a-75663f4353c6.png)
 #### 1.3 Prueba de escritorio 
 #### 1.4 Entradas.
 #### 1.5 Salidas.
@@ -996,10 +1011,10 @@ void main() {
   }
 }
 ```
-### Ejercicio 25. 
+### Ejercicio 9. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197482672-6eed242b-d874-4e2c-8799-0594adfa0c0f.png)
+![9 (For)](https://user-images.githubusercontent.com/113395327/197688637-9a00679f-1399-4b3b-8943-94b722e29fac.png)
 #### 1.3 Prueba de escritorio 
 #### 1.4 Entradas.
 #### 1.5 Salidas.
@@ -1047,10 +1062,10 @@ print("Cantidad de aprobados:", aprobado)
 print("Promedio de aprobados:", promedioAprobados)
 print("Desaprobados:", reprobado)
 ```
-### Ejercicio 26. 
+### Ejercicio 9. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197482760-4bd30e29-9b13-4fe5-9390-3aa8e01f6411.png)
+![9 (While)](https://user-images.githubusercontent.com/113395327/197688668-601d5b47-281d-4231-9cb2-e656611b73b9.png)
 #### 1.3 Prueba de escritorio 
 #### 1.4 Entradas.
 #### 1.5 Salidas.
@@ -1099,10 +1114,10 @@ print("Cantidad de aprobados:", aprobado)
 print("Promedio de aprobados:", promedioAprobados)
 print("Desaprobados:", reprobado)
 ```
-### Ejercicio 27. 
+### Ejercicio 9. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197482934-840febba-0be4-4fe0-9c27-281d562999aa.png)
+![9 (Do-While)](https://user-images.githubusercontent.com/113395327/197688706-f4036b1b-f435-472c-b2ac-520327f67105.png)
 #### 1.3 Prueba de escritorio 
 #### 1.4 Entradas.
 #### 1.5 Salidas.
@@ -1141,10 +1156,11 @@ print("Cantidad de reprobados:", reprobado)
 print("Promedio de aprobados:", promedioAprobados)
 ```
 
-### Ejercicio 28. 
+### Ejercicio 10. Un dfd que capture 10 números enteros positivos y los almacene en un array. *Sacar el número mayor y el menor.
 #### 1.1 Analisis. 
+
 #### 1.2 DFD.
-![image](https://user-images.githubusercontent.com/113395327/197483146-55c5bd23-3545-4372-b004-843558fc1981.png)
+![11](https://user-images.githubusercontent.com/113395327/197684226-87886cc7-470a-4c5f-8a3a-9fa33659f4f4.png)
 #### 1.3 Prueba de escritorio 
 #### 1.4 Entradas.
 #### 1.5 Salidas.
@@ -1162,13 +1178,20 @@ print("Numero mayor es ",max(lista))
 print("Numero menor es ",min(lista))
 ```
 
-### Ejercicio 29. 
+### Ejercicio 11. Obtenga la distancia mayor entre 2 números consecutivos en una lista de 10 números.
 #### 1.1 Analisis. 
+
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197483758-f4ea6e26-8ab1-4dd7-8bc4-37658cb6fc93.png)
+![12](https://user-images.githubusercontent.com/113395327/197684202-afbcfb05-e77c-4657-97aa-c9c7c5377989.png)
 #### 1.3 Prueba de escritorio 
+|n|Mayor|i|Mayor>d[i]|mayor=d[i]|
+|-|-|-|-|-|
+|5|0|0|0>5|5|
+|1|5|1|5>1||
 #### 1.4 Entradas.
+n.
 #### 1.5 Salidas.
+mayor=d[i].
 #### 1.6 Codigo.
 ```dart
 import 'dart:io';
@@ -1202,13 +1225,28 @@ void main() {
 }
 ```
 
-### Ejercicio 30. 
+### Ejercicio 12. Almacene en un vector el resultado de una tabla (10 numeros)
 #### 1.1 Analisis. 
+El tamaño del array sera de 10, validaremos el numero de la tabla, en una condición de termino.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197483811-31f1c1c8-3223-41b1-a71a-02bd0ecb54dc.png)
+![13](https://user-images.githubusercontent.com/113395327/197684095-af2797a3-870a-44fe-a951-5756dbb6a704.png)
 #### 1.3 Prueba de escritorio 
+|n|n>0|i|i<=9|A[i]= n * i|i+1|
+|-|-|-|-|-|-|
+|5|5>0|0|0<=9|A[0]= 5 * 0|0+1|
+|2|2>0|1|1<=9|A[1]= 2 * 1|1+1|
+|4|4>0|2|2<=9|A[2]= 4 * 2|2+1|
+|9|9>0|3|3<=9|A[3]= 9 * 3|3+1|
+|8|8>0|4|4<=9|A[4]= 8 * 4|4+1|
+|3|3>0|5|5<=9|A[5]= 3 * 5|5+1|
+|8|8>0|6|6<=9|A[6]= 8 * 6|6+1|
+|6|6>0|7|7<=9|A[7]= 6 * 7|7+1|
+|4|4>0|8|8<=9|A[8]= 4 * 8|8+1|
+|3|3>0|9|9<=9|A[9]= 3 * 9|9+1|
 #### 1.4 Entradas.
+n.
 #### 1.5 Salidas.
+Mayor.
 #### 1.6 Codigo.
 ```dart
 import 'dart:io';
@@ -1224,20 +1262,32 @@ void main(List<String> args) {
 }
 ```
 
-### Ejercicio 31. 
-#### 1.1 Analisis. 
+### Ejercicio 13. Escriba un dfd que escriba el siguiente dibujo.
+#### 1.1 Analisis. Desarrollar el siguiente diagrama de flujo.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197483869-000b9f97-54a5-4fa8-b514-fc84528984c0.png)
+![14](https://user-images.githubusercontent.com/113395327/197684075-b7439c57-f658-44ec-b8d3-cb3a0f734614.png)
 #### 1.3 Prueba de escritorio 
-|i|i<=5|i++|j|j<i|j++|salida|
+|i|i<=5|i++|j|j<=i|j++|salida|
 |-|-|-|-|-|-|-|
-|1|1<=5|1+1|1|1<1|j++||
-|2|2<=5|2+1|2|2<1|j++||
-|3|3<=5|3+1|3|3<1|j++||
-|4|4<=5|4+1|4|4<1|j++||
-|5|5<=5|5+1|5|5<1|j++|salida|
+|1|1<=5|1+1|1|1<=1|1+1| * |
+|2|2<=5|2+1|1|1<=2|2+1| * |
+|||||2<=2|| * |
+|3|3<=5|3+1|1|1<=3|3+1| * |
+|||||2<=3|| * |
+|||||3<=3|| * |
+|3|4<=5|3+1|1|1<=4|4+1| * |
+|||||2<=4|| * |
+|||||3<=4|| * |
+|||||4<=4|| * |
+|3|5<=5|3+1|1|1<=5|5+1| * |
+|||||2<=5|| * |
+|||||3<=5|| * |
+|||||4<=5|| * |
+|||||5<=5|| * |
 #### 1.4 Entradas.
+No tiene ninguna entrada
 #### 1.5 Salidas.
+*
 #### 1.6 Codigo.
 ```dart
 import 'dart:io';
