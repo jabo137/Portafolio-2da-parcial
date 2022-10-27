@@ -102,7 +102,7 @@ void main(List<String> args) {
 ```
 ### Ejercicio 4. Obtenga la suma de los primeros 5 numeros pares. (FOR)
 #### 1.1 Analisis. 
-Sumar los numeros pares del 1 al 10.
+Obtener los primeros 5 numeros pares y sumarlos entre si.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197371049-0a3fe20e-11ef-4136-94b4-0d2ad7275bc2.png)
 #### 1.3 Prueba de escritorio 
@@ -129,7 +129,7 @@ void main(List<String> args) {
 ```
 ### Ejercicio 5. Obtenga la suma de los primeros 5 numeros pares. (WHILE)
 #### 1.1 Analisis.
-Sumar los numeros pares del 1 al 10.
+Obtener los primeros 5 numeros pares y sumarlos entre si.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197402064-570cad02-fbe8-4d55-bdfc-3c025b1e2286.png)
 #### 1.3 Prueba de escritorio 
@@ -157,7 +157,7 @@ void main(List<String> args) {
 ```
 ### Ejercicio 6. Obtenga la suma de los primeros 5 numeros pares. (DO-WHILE)
 #### 1.1 Analisis.
-Sumar los numeros pares del 1 al 10.
+Obtener los primeros 5 numeros pares y sumarlos entre si.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197402096-75bf182b-69be-40bc-b2b7-95e5d353861c.png)
 #### 1.3 Prueba de escritorio 
@@ -304,7 +304,7 @@ void main() {
 ```
 ### Ejercicio 10. Almacene los n numeros leidos del teclado en un vector de 10 elementos. (FOR)
 #### 1.1 Analisis. 
-Almacenar en 10 espacios diferentes numeros leidos del teclado.
+Almacenar en un vector el coteo negativo del 10 a 0 en orden.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197371156-4295ab1d-e995-4f38-8338-0bdcdac36c00.png)
 #### 1.3 Prueba de escritorio 
@@ -342,7 +342,7 @@ void main() {
 ```
 ### Ejercicio 11. Almacene los n numeros leidos del teclado en un vector de 10 elementos. (WHILE)
 #### 1.1 Analisis. 
-Almacenar en 10 espacios diferentes numeros leidos del teclado.
+Almacenar en 10 espacios diferentes los numeros ingresados por el usario.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197402477-524b88d2-dcec-414e-8015-489a0de963db.png)
 #### 1.3 Prueba de escritorio 
@@ -382,7 +382,7 @@ void main() {
 ```
 ### Ejercicio 12. Almacene los n numeros leidos del teclado en un vector de 10 elementos. (DO-WHILE)
 #### 1.1 Analisis. 
-Almacenar en 10 espacios diferentes numeros leidos del teclado.
+Almacenar en 10 espacios diferentes los numeros ingresados por el usario.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197405036-fac206f1-3619-44c2-8c64-3fc58a899b1a.png)
 #### 1.3 Prueba de escritorio 
