@@ -825,7 +825,7 @@ void main() {
 ```
 ### Ejercicio 8. Capturar n números en el rango [Li,LS] donde: Li=límite inferior y LS= límite superior, para Li<Ls y Li<LS y Li>0, obtenga: -la cantidad de numeros pares y su promedio. -La cantidad de números impares y su promedio. ¿Cuál promedio es mayor? (FOR)
 #### 1.1 Analisis. 
-  
+# pedirle al usuario  que ingrese un limite superior y un limite superior y que el limete superior sea mayor al limite inferior, y obtener así la cantidad de numeros pares y el promedio de ambos
 #### 1.2 DFD
 ![8 (For)](https://user-images.githubusercontent.com/113395327/197688541-2d6416ea-fe06-41cf-b2b4-55418564b7e8.png)
 #### 1.3 Prueba de escritorio 
@@ -904,7 +904,7 @@ else:
 ```
 ### Ejercicio 8. Capturar n números en el rango [Li,LS] donde: Li=límite inferior y LS= límite superior, para Li<Ls y Li<LS y Li>0, obtenga: -la cantidad de numeros pares y su promedio. -La cantidad de números impares y su promedio. ¿Cuál promedio es mayor?
 #### 1.1 Analisis.
-
+# pedirle al usuario  que ingrese un limite superior y un limite superior y que el limete superior sea mayor al limite inferior, y obtener así la cantidad de numeros pares y el promedio de ambos
 #### 1.2 DFD
 ![8 (While)](https://user-images.githubusercontent.com/113395327/197688584-5ca91bc8-9620-431c-a661-81d7ff09acbb.png)
 #### 1.3 Prueba de escritorio 
@@ -956,6 +956,7 @@ else:
 ```
 ### Ejercicio 8. 
 #### 1.1 Analisis. 
+# pedirle al usuario  que ingrese un limite superior y un limite superior y que el limete superior sea mayor al limite inferior, y obtener así la cantidad de numeros pares y el promedio de ambos
 #### 1.2 DFD
 ![8 (Do-While)](https://user-images.githubusercontent.com/113395327/197688603-78d031c0-5bca-476a-830a-75663f4353c6.png)
 #### 1.3 Prueba de escritorio 
@@ -1011,8 +1012,9 @@ void main() {
   }
 }
 ```
-### Ejercicio 9. 
+### Ejercicio 9. Obtener la frecuencia de n calificaciones entre 1 y 10, obtener la cantidad de reprobados, la cantidad de aprobados, el promedio de aprobados y el promedio general.
 #### 1.1 Analisis. 
+# Pedirle al usurario que indique un numero de calififcaciones, validar que sea un numero entero positivo, pedir las calificacionesy calcular el promedio y cantidad de aprobados y reprobados.
 #### 1.2 DFD
 ![9 (For)](https://user-images.githubusercontent.com/113395327/197688637-9a00679f-1399-4b3b-8943-94b722e29fac.png)
 #### 1.3 Prueba de escritorio 
@@ -1064,6 +1066,7 @@ print("Desaprobados:", reprobado)
 ```
 ### Ejercicio 9. 
 #### 1.1 Analisis. 
+# # Pedirle al usurario que indique un numero de calififcaciones, validar que sea un numero entero positivo, pedir las calificacionesy calcular el promedio y cantidad de aprobados y reprobados.
 #### 1.2 DFD
 ![9 (While)](https://user-images.githubusercontent.com/113395327/197688668-601d5b47-281d-4231-9cb2-e656611b73b9.png)
 #### 1.3 Prueba de escritorio 
@@ -1115,7 +1118,8 @@ print("Promedio de aprobados:", promedioAprobados)
 print("Desaprobados:", reprobado)
 ```
 ### Ejercicio 9. 
-#### 1.1 Analisis. 
+#### 1.1 Analisis.
+# # Pedirle al usurario que indique un numero de calififcaciones, validar que sea un numero entero positivo, pedir las calificacionesy calcular el promedio y cantidad de aprobados y reprobados.
 #### 1.2 DFD
 ![9 (Do-While)](https://user-images.githubusercontent.com/113395327/197688706-f4036b1b-f435-472c-b2ac-520327f67105.png)
 #### 1.3 Prueba de escritorio 
