@@ -1119,7 +1119,7 @@ print("Desaprobados:", reprobado)
 ```
 ### Ejercicio 9. 
 #### 1.1 Analisis.
-# # Pedirle al usurario que indique un numero de calififcaciones, validar que sea un numero entero positivo, pedir las calificacionesy calcular el promedio y cantidad de aprobados y reprobados.
+# Pedirle al usurario que indique un numero de calififcaciones, validar que sea un numero entero positivo, pedir las calificacionesy calcular el promedio y cantidad de aprobados y reprobados.
 #### 1.2 DFD
 ![9 (Do-While)](https://user-images.githubusercontent.com/113395327/197688706-f4036b1b-f435-472c-b2ac-520327f67105.png)
 #### 1.3 Prueba de escritorio 
